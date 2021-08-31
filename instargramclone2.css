@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    background-color: #fafafa;
+}
+.header_nv {
+    display: flex;
+    justify-content: center;
+    flex-basis: 0;
+    margin-bottom: 20px;
+    border-bottom: 0.5px solid #dbdbdb;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+.header_nv2 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0.8;
+    flex-basis: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 975px;
+    height: 54px;
+}
+.header_text {
+    font-size: 30px;
+    font-family: 'Style Script', cursive;
+    flex: 1;
+}
+.header_ip {
+    width: 209px;
+    height: 24px;
+    background-color: #fafafa;
+    border: 0.5px solid #dbdbdb;
+    text-align: center;
+    border-radius: 3px;
+}
+.header_ip::placeholder {
+    color: #b2b2b2;
+}
+.headercontainer {
+    flex: 1;
+    display: flex;
+    flex-basis: 0;
+}
+.hdit_left {
+    flex: 0.3;
+}
+.headeritems {
+    flex:0.7;
+    display: flex;
+    padding-left: 30px;
+    font-size: 23px;
+} 
+.headeritem {
+    margin-left: 23px;  
+}
+.section_area {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.first_article {
+padding-right: 30px;
+}
+.ig_feed {
+    display: flex;
+    border: 0.5px solid #dbdbdb;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 614px;
+    height: 60px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.ig_user {
+    display: flex;
+    align-items: center;
+}
+.user_text {
+    margin-left: 20px;
+    font-weight: bold;
+}
+.dot_icon {
+    font-size: 12px;
+    font-weight: 100;
+}
+.user_img{
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    border: 0.3px solid #dbdbdb;
+}
+.ig_img {
+    width: 614px;
+    height: 767.5px;
+}
+.feed_img {
+    width: 614px;
+    height: 767.5px;
+}
+.asid_container {
+    display: flex;
+    flex-flow: column;
+    flex-basis: 0;
+    width: 293px;
+    box-sizing: border-box;
+}
+.asid_main {
+    margin: 18px 0px 24px;
+}
+.aside_mainitem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.aside_userall {    
+    display: flex;
+    align-items: center;
+}
+.user_name {
+    font-size: 14px;
+    color: #8e8e8e;
+}
+.main_transform {
+    font-size: 12px;
+    color: #0095f6;
+    font-weight: 600;
+}
+.topitem_right:hover, .aside_img:hover, .aside_icon:hover, .user_enname:hover, .header_text:hover, .icons:hover, .user_img:hover,
+ .addressitem:hover, .dot_icon:hover, .main_transform:hover {
+    cursor: pointer;
+}
+.aside_itemtop {
+    display: flex;
+    justify-content: space-between;
+    width: 293px;
+}
+.topitem_left {
+    color: #8e8e8e;
+    font-size: 14px;
+    font-weight: 500;
+}
+.topitem_right {
+    color: #292929;
+    font-size: 13px;
+    font-weight: 600;
+}
+.aside_itembottom {
+    box-sizing: border-box;
+    margin-top: 20px;
+    width: 293px;
+}
+.useefriend_all {
+    display: flex;
+}
+.aside_item {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0px;
+}
+.userfriend_text {
+    display: flex;
+    flex-flow: column;
+    padding-left: 12px;
+}
+.user_text:hover, .friend_name:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.friend_suggestion {
+    font-size: 12px;
+    color: #8e8e8e;
+}
+.aside_icon {
+    font-size: 56px;
+    color: #dbdbdb;
+    margin-right: 15px;
+}
+.aside_img {
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    border: 0.3px solid #dbdbdb;
+}
+.asdie_address {
+    margin-top: 10px;
+    padding: 0;
+
+}
+.addresscontainer {
+    list-style: none;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.addressitem {
+    font-size: 11px;
+    display: inline-block;
+    color: #cbcbcb;
+}
+.addressitem::after {
+    content: '\00B7';
+    margin: 0 .25em 0 .25em;
+}
